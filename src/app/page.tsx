@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
+
 export default function Home() {
   return (
-    <div>
-      <h1 className="text-red-700">Hello World!!</h1>
+    <div className="flex items-center justify-center h-screen">
+      <Button>Drizzle</Button>
     </div>
   );
 }
